@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tugasday3</string>
+    <string name="smartphone_name" />
+    <string name="description" />
+    <string name="nama_smartphone">Nama Smartphone</string>
+    <string name="price">Price</string>
+</resources>

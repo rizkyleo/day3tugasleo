@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Silahkan Pilih"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="34sp" />
+    <ImageView
+        android:id="@+id/imageViewSmartphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/samsung"
+        android:layout_below="@id/textViewPrompt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10sp"
+        android:onClick="onSmartphoneClick"
+        android:contentDescription="Image of a smartphone" />
+    <ImageView
+        android:id="@+id/imageViewLaptop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/download"
+        android:layout_below="@id/imageViewSmartphone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="onLaptopClick"
+        android:contentDescription="Image of a laptop" />
+
+
+    <ImageView
+        android:id="@+id/imageViewTablet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/download1"
+        android:layout_below="@id/imageViewLaptop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:onClick="onTabletClick"
+        android:contentDescription="Image of a tablet" />
+
+</RelativeLayout>
